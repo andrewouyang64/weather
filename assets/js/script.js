@@ -19,11 +19,11 @@ var eachDayEl=document.getElementById('each-day');
 
 // declaring glogal variables
 var previousSearchesObj={};
-var openWeatherAPIKey = 'a667932ac6ff632247e4626d841090bd';
 var date = moment().format("dddd, DD MMMM YYYY");
 var currentMonthAndYear = moment().format("MM/YYYY");
 var currentDay = moment().format("DD");
 var time = moment().format("hh:mm:ss");
+var openWeatherAPIKey ='0870768a762b60884119df83a4d63126'
 
 var geoData = {};
 var city = '';
