@@ -1,0 +1,137 @@
+h1 {
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.city-name {
+    padding: 5px;
+}
+
+.inputname {
+    padding: 5px;
+}
+button {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+button:hover {
+    border-color: blue;
+    cursor: pointer;
+}
+
+.previous {
+    color: white;
+}
+
+.previous:hover {
+    cursor: pointer;
+    background-color: rgb(86, 211, 169);
+}
+
+.container {
+    background-color: bisque;
+display: flex;
+flex-direction: row;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.search {
+    background-color:gray;
+    width: 25%;
+    height: fit-content;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 15px;
+    text-align: center;
+}
+
+.weather-display {
+    background-color: cornflowerblue;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.current-weather {
+    background-color: rgb(184, 199, 184);
+    width: 98%;
+    height: fit-content;
+    padding: 20px;
+    position: relative;
+    left: 5px;
+}
+
+.five-day-forcast {
+    background-color: lemonchiffon;
+    width: 98%;
+    height: fit-content;
+    padding: 20px;
+    position: relative;
+    left: 5px;
+}
+
+.each-day {
+    display: flex;
+    flex-direction: row;
+}
+
+.eachDayDisplay {
+    border: 1px solid red;
+    margin: 7px;
+    padding: 5px;
+    background-color: rgb(145, 145, 137);
+    color: white;
+    width: 210px;
+}
+
+.eachDayIcon {
+    width:50px;
+    height:50px;
+}
+
+.current-city {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.green {
+    background-color: green;
+    border-radius: 4px;
+    width: fit-content;
+    padding: 3px;
+}
+
+.yellow {
+    border-radius: 4px;
+    background-color: yellow;
+    width: fit-content;
+    padding: 3px;
+}
+
+.orange {
+    border-radius: 4px;
+    background-color: orange;
+    width: fit-content;
+    padding: 3px;
+}
+
+.red {
+
+    border-radius: 4px;
+    background-color: red;
+    width: fit-content;
+    padding: 3px;
+}

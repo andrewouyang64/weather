@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<header>
+    <h1>Weather Dashboard</h1>
+</header>
+<body>
+    <div class="container" id="container">
+        <div class="search" id="search">
+            <h2>Search for a city</h2>
+
+            <form id="search-city" class="search-city">
+                <input class="city-name" id="city-name" placeholder="Enter valid city name">
+                <button type="submit" class="submitBtn" id="submitBtn">Submit</button>
+            </form>
+            
+            <div class="previous-searches" id="previous-seraches">
+                <ul class="previous-city" id="previous-city"></ul>
+
+            </div>
+            <button id="clear-previous" class="clear-previous">Clear</button>
+
+            
+        </div>
+
+        <div class="weather-display" id="weather-display">
+            <div class="current-weather" id="current-weather">
+                <p class="current-city" id="current-city">City name: Date</p>
+                <img id="current-icon" alt="weather icon" style="display:none">
+                <p class="current-temp" id="current-temp">Temp:</p>
+                <p class="current-win" id="current-win">Win</p>
+                <p class="current-hum" id="current-hum">Humidity</p>
+                <p class="current-uv" id="current-uv">UV index</p>
+            </div>
+
+            <div class="five-day-forcast">
+                <h3>Next 5 day forcast</h3>
+                <div class="each-day" id="each-day">
+                    
+                </div>
+                
+            </div>
+
+
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+        integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./assets/js/script.js"></script>   
+</body>
+</html>
